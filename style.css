@@ -53,6 +53,19 @@ p {
   font-family: Arial, sans-serif;
 }
 
+a {
+  text-decoration: none;
+  color: white;
+}
+
 .social-media img {
   width: 28px;
+}
+
+ul {
+  list-style-type: none;
+}
+
+.space {
+  height: 100px;
 }
