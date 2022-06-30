@@ -29,7 +29,8 @@ nav {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  width: 50%;
+  width: 60%;
+  align-items: center;
 }
 
 h1 {
@@ -68,4 +69,20 @@ ul {
 
 .space {
   height: 100px;
+}
+
+.linkedin-icon img {
+  width: 25px;
+}
+
+.angelist-icon img {
+  width: 23px;
+}
+
+.twiter-icon img {
+  width: 25px;
+}
+
+.medium-icon img {
+  width: 25px;
 }
