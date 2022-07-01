@@ -1,0 +1,137 @@
+.about {
+  background-color: #1c1a19;
+  width: 375px;
+}
+
+.about-me {
+  font-size: 30px;
+  color: #ff6b00;
+  padding-top: 100px;
+  text-align: center;
+  font-weight: bold;
+}
+
+.aboutme-paragraph {
+  color: white;
+  padding: 10px;
+}
+
+/* .see-projects {
+  background-color: #ff6b00;
+  outline: none;
+  border: none;
+  border-bottom: none;
+  color: wheat;
+  padding: 10px;
+  margin-left: 10px;
+  font-weight: bold;
+  cursor: pointer;
+  border-radius: 3px;
+  margin-bottom: 10px;
+} */
+
+.vector img {
+  object-position: right;
+}
+
+hr {
+  width: 320px;
+  margin-left: 10px;
+  margin-bottom: 40px;
+}
+
+ul li:first-child {
+  font-weight: bold;
+  font-weight: 700;
+  font-size: 20px;
+}
+
+ul li:first-child::before {
+  margin-bottom: 20px;
+  content: "\2022";
+  color: #ff6b00;
+  font-weight: bold;
+  display: inline-block;
+  width: 1em;
+  margin-left: -1em;
+}
+
+ul {
+  list-style-type: none;
+  color: white;
+}
+
+.intrests-container {
+  background-color: white;
+  width: 375px;
+  padding-left: 10px;
+}
+
+.intrest p {
+  width: 275px;
+  padding-top: 30px;
+  font-size: 18px;
+  font-weight: bold;
+  padding-bottom: 20px;
+}
+
+.input-fname {
+  margin-top: 15px;
+  width: 350px;
+  margin-bottom: 10px;
+  border: none;
+  border-bottom: 2px solid grey;
+}
+
+.input-email {
+  margin-top: 15px;
+  margin-bottom: 20px;
+  width: 350px;
+  border: none;
+  border-bottom: 2px solid grey;
+}
+
+.input-area {
+  width: 350px;
+  height: 70px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.see-projects {
+  background-color: #ff6b00;
+  outline: none;
+  border: none;
+  border-bottom: none;
+  color: wheat;
+  padding: 10px;
+  font-weight: bold;
+  cursor: pointer;
+  border-radius: 3px;
+  margin-top: 10px;
+  margin-left: 90px;
+}
+
+.see-projects:hover {
+  border: 2px solid #1c1a19;
+}
+
+.social-media ul li {
+  list-style: none;
+  display: inline;
+}
+
+.social-media {
+  width: 200px;
+  padding-left: 60px;
+}
+
+.form {
+  margin-bottom: 50px;
+}
+
+.social-sep {
+  width: 80px;
+  margin-left: 100px;
+  margin-bottom: 40px;
+  border: 2px solid;
+}
