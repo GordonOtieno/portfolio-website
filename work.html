@@ -211,21 +211,22 @@
               </ul>
               <div class="spacer"></div>
             </div>
-          <div class="intrests-container">
+          <footer class="intrests-container">
             <div class="intrest">
               <p>I'm always interested in hearing about new projects, so if you'd like to chat please get in touch.</p>
             </div>
-            <div class="form">
-              <label id ="name">First Name</label>
-              <input class="input-fname" type="text" name="name">
+
+            <form class="form" method="post" action="https://formspree.io/f/mjvlqgeq">
+              <label id="name">Full Name</label>
+              <input class="input-fname" type="text" name="name" maxlength="30" placeholder="eg. Gordon Otieno" required>
                <label id="email">Email Address</label>
-              <input  class="input-email" type="text" name="name">
-              <textarea class="input-area" name="views" >Hello friend good to see you. </textarea>
+              <input  class="input-email" type="email" name="name" placeholder="eg. test@abc.com" required>
+              <textarea class="input-area" name="views" maxlength="500" rows="6" cols="70" placeholder="Write your message here" required></textarea>
   
-              <button type="button" class="see-projects touch">Get In Touch</button> 
-          </div>
-          <hr>
-          <div class="social-media-container">
+              <button type="submit" class="see-projects touch">Get In Touch</button> 
+            </form>
+           <hr>
+           <div class="social-media-container">
             <ul class="social-media">
               <li class="github-icon">
                 <a href="#"><img src="./icons/github.png" alt="github"></a>
@@ -247,7 +248,7 @@
             
        
           <hr class="social-sep">
-        </div>
+          </footer>
       </section>
  
  

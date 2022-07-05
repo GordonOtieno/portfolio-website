@@ -27,6 +27,9 @@ Use: git clone https://github.com/GordonOtieno/portfolio-website.git
 - GitHub: [@GordonOtieno](https://github.com/GordonOtieno
 - Twitter: [@GordonO34459259](https://twitter.com/@GordonO34459259
 
+## Acknowledgments
+- Umer Zia: [@UmerZia](https://github.com/UmerZia for contributing to my project
+
 ## 📝 License
 
 This project is [MIT](./MIT.md) licensed.
