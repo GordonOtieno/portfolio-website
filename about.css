@@ -59,6 +59,13 @@ ul {
   margin-bottom: 10px;
   border: none;
   border-bottom: 1px solid #dbd8d7;
+  font-size: 15px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.input-fname:focus {
+  outline: none;
 }
 
 .input-email {
@@ -67,6 +74,13 @@ ul {
   width: 320px;
   border: none;
   border-bottom: 1px solid #dbd8d7;
+  font-size: 15px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.input-email:focus {
+  outline: none;
 }
 
 .input-area {
@@ -74,6 +88,14 @@ ul {
   height: 70px;
   font-family: Arial, Helvetica, sans-serif;
   background: #fbf8f7;
+  font-size: 15px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border: none;
+}
+
+.input-area:focus {
+  outline: none;
 }
 
 label {
@@ -98,7 +120,10 @@ label {
 }
 
 .see-projects.touch {
-  margin-left: 100px;
+  margin-top: 20px;
+  margin-left: 80px;
+  padding: 15px 1px 15px 1px;
+  width: 150px;
 }
 
 .see-projects:hover {
@@ -121,11 +146,13 @@ label {
 
 .form {
   margin-bottom: 100px;
+  display: flex;
+  flex-direction: column;
 }
 
 .social-sep {
   width: 120px;
-  margin-left: 80px;
+  margin-left: 75px;
   margin-bottom: 50px;
   margin-top: 4px;
   border: 2px solid;
