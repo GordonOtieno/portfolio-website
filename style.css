@@ -37,6 +37,9 @@ h1 {
   color: #ff6b00;
   font-weight: 700;
   font-size: 50px;
+  margin-top: 50px;
+  margin-left: 20px;
+  margin-bottom: 30px;
 }
 
 h2 {
@@ -63,14 +66,6 @@ a {
   width: 28px;
 }
 
-ul {
-  list-style-type: none;
-}
-
-.space {
-  height: 100px;
-}
-
 .linkedin-icon img {
   width: 25px;
 }
@@ -87,19 +82,11 @@ ul {
   width: 25px;
 }
 
-/* work section */
 .recent-work {
   font-size: 27px;
   font-weight: 700px;
   margin-bottom: 20px;
   margin-top: 40px;
-}
-
-h1 {
-  margin-top: 50px;
-  margin-left: 20px;
-  margin-bottom: 30px;
-  font-size: 35px;
 }
 
 hr {
@@ -170,6 +157,7 @@ hr {
 
 ul {
   padding-left: 0.1px;
+  list-style-type: none;
 }
 
 .see-projects:hover {
@@ -230,7 +218,7 @@ li button:hover {
 }
 
 .space {
-  height: 30px;
+  height: 100px;
 }
 
 .see-projects-resume {

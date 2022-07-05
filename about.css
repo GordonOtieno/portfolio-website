@@ -64,8 +64,8 @@ ul {
   padding-bottom: 10px;
 }
 
-.input-fname:focus{
-outline: none;
+.input-fname:focus {
+  outline: none;
 }
 
 .input-email {
@@ -79,9 +79,9 @@ outline: none;
   padding-bottom: 10px;
 }
 
-.input-email:focus{
+.input-email:focus {
   outline: none;
-  }
+}
 
 .input-area {
   width: 320px;
@@ -94,9 +94,9 @@ outline: none;
   border: none;
 }
 
-.input-area:focus{
+.input-area:focus {
   outline: none;
-  }
+}
 
 label {
   color: #979493;
