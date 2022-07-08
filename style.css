@@ -215,6 +215,7 @@ p {
   transition: opacity 0.15s;
   vertical-align: top;
 }
+
 .see-project:hover {
   opacity: 0.6;
 }
