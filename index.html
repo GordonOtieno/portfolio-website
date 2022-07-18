@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="./style.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <script type="text/javascript" src="./script.js"></script>
     <script
       src="https://kit.fontawesome.com/bc4d064067.js"
       crossorigin="anonymous"
@@ -20,8 +21,11 @@
   <header class="main-header" role="group">
     <span  class="main-header__logo" tabindex="0">@GordonOtieno</span>
     <nav class="main-header__navigation--menu">
-        <i class="fa fa-bars main-header__navigation--bar"></i>
-        <ul class="main-header__navigation--menu__list">
+        <button onclick="toggleNav()" type="button" class="humbuger-btn" id="hamburger" >
+            <i class="fa fa-bars main-header__navigationn--bar close-hum"></i>
+            <!-- <i class="fa fa-times-circle xtime" aria-hidden="true"></i> -->
+        </button>
+        <ul class="main-header__navigation--menu__list" id="nav-link">
             <li class="menu__item">
                 <a class="menu__item--link" role="button" href="#section-1"
                  aria-label="navigate to portfolio section"
@@ -35,7 +39,7 @@
             </li>
 
             <li class="menu__item">
-                <a class="menu__item--link" role="button" href="#section-1"
+                <a class="menu__item--link" role="button" href="#section-4"
                  aria-label="navigate to contact section"
                 >Contact</a>
             </li>
@@ -481,7 +485,7 @@
         </section>
 
         <!-- form section -->
-        <section class="form-section-container" role="group" tabindex="0">
+        <section class="form-section-container" id="section-4" role="group" tabindex="0">
           <h2 class="intro">
             I'm always interested in hearing about new projects, 
                 so if you'd like to chat please get in touch.
