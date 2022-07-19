@@ -67,22 +67,20 @@ body {
 .humbuger-btn {
   width: 25px;
   height: 25px;
-  background-color:transparent;
+  background-color: transparent;
   color: white;
-  border: 0px;;
+  border: 0;
   cursor: pointer;
   display: none;
   font-size: 2rem;
 }
 
-.cancel-icon {
-  background-color:none;
-  width: 25px;
- 
+.humbuger-btn:focus {
+  outline: none;
 }
 
-.humbuger-btn:focus{
-  outline: none;
+.fa.fa-times.hide {
+  display: none;
 }
 
 .main-header__navigation--menu__list .menu__item {
@@ -99,7 +97,6 @@ body {
   font-weight: 600;
   vertical-align: middle;
 }
-
 
 .msg-icon {
   display: block;
@@ -249,6 +246,7 @@ body {
   display: flex;
   gap: 1.2rem;
   list-style: none;
+  margin-bottom: 2rem;
 }
 
 .tech-list .skills {
@@ -284,7 +282,7 @@ body {
 }
 
 .work-section-container--highlighted-project .project_list--li__cta {
-  width: 50%;
+  width: 45%;
 }
 
 /* About Section */
@@ -475,12 +473,52 @@ body {
 }
 
 @media (max-width: 768px) {
+  .main-header__navigation--menu.reversed {
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: flex-start;
+    justify-content: space-between;
+    width: 100%;
+    height: 60rem;
+  }
+
   .main-header__navigation--menu__list.show {
     display: flex;
     flex-direction: column;
-    width: 100%;
-    align-items: center;
+    width: 80%;
+    align-items: flex-start;
     transition: 0.3s;
+  }
+
+  .main-header__navigation--menu__list.show li {
+    border-bottom: 1px solid #a5a8af;
+    width: 100%;
+    padding: 2rem;
+  }
+
+  .main-header__navigation--menu__list.show li:last-child {
+    display: none;
+  }
+
+  .main-header__navigation--menu__list.show li:first-child {
+    margin-top: 4rem;
+  }
+
+  .main-header__navigation--menu.reversed button .fa-bars {
+    display: none;
+  }
+
+  .main-header__navigation--menu.reversed button .fa-times {
+    display: block;
+    color: red;
+  }
+
+  .main-header__logo.hide {
+    display: none;
+  }
+
+  .hide {
+    display: none;
   }
 
   .humbuger-btn {
@@ -488,11 +526,9 @@ body {
   }
 
   .main-header {
-   align-items: flex-start;
-   padding-top: 5rem;
-   /* position: fixed; */
-}
-
+    align-items: flex-start;
+    padding-top: 5rem;
+  }
 }
 
 @media (min-width: 768px) {
@@ -770,10 +806,10 @@ body {
   .main-header__navigation--bar {
     display: none;
   }
-  
+
   .humbuger-btn {
     display: none;
-  }  
+  }
 
   .main-header__navigation--menu__list {
     display: flex;

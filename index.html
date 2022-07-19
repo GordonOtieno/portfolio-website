@@ -19,32 +19,32 @@
 </head>
 <body>
   <header class="main-header" role="group">
-    <span  class="main-header__logo" tabindex="0">@GordonOtieno</span>
-    <nav class="main-header__navigation--menu">
+    <span  class="main-header__logo" id="main-logo" tabindex="0">@GordonOtieno</span>
+    <nav class="main-header__navigation--menu" id="reversed">
         <button onclick="toggleNav()" type="button" class="humbuger-btn" id="hamburger" >
-            <i class="fa fa-bars main-header__navigationn--bar close-hum"></i>
-            <!-- <i class="fa fa-times-circle xtime" aria-hidden="true"></i> -->
+            <i class="fa fa-bars main-header__navigationn--bar" id="bars"></i>
+            <i class="fa fa-times hide" aria-hidden="true" id="times"></i>
         </button>
         <ul class="main-header__navigation--menu__list" id="nav-link">
-            <li class="menu__item">
+            <li class="menu__item" id="port">
                 <a class="menu__item--link" role="button" href="#section-1"
                  aria-label="navigate to portfolio section"
                 >Portfolio</a>
             </li>
 
-            <li class="menu__item">
-                <a class="menu__item--link" role="button" href="#section-2"
+            <li class="menu__item" id="about">
+                <a class="menu__item--link" role="button" href="#section-3"
                  aria-label="navigate to about section"
                 >About</a>
             </li>
 
-            <li class="menu__item">
+            <li class="menu__item" id="cont">
                 <a class="menu__item--link" role="button" href="#section-4"
                  aria-label="navigate to contact section"
                 >Contact</a>
             </li>
 
-            <li class="menu__item">
+            <li class="menu__item" id="email">
                 <a
                   role="button"
                   href="Otienogordon95@gmail.com"
