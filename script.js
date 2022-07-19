@@ -10,7 +10,6 @@ function toggleNav(){
     close_hum.classList.toggle('hide');
     header.classList.toggle('resize');
 }
-
 function reset(){
     const navUl=document.getElementById('nav-link');
     const header=document.getElementById('head');
@@ -23,6 +22,5 @@ function reset(){
     close_hum.classList.remove('hide');
     header.classList.remove('resize');
 }
-
 toggleNav();
 reset();
