@@ -18,7 +18,7 @@
       rel="stylesheet"/>
 </head>
 <body>
-  <header class="main-header" role="group">
+  <header class="main-header" role="group" id="head">
     <span  class="main-header__logo" id="main-logo" tabindex="0">@GordonOtieno</span>
     <nav class="main-header__navigation--menu" id="reversed">
         <button onclick="toggleNav()" type="button" class="humbuger-btn" id="hamburger" >
@@ -26,19 +26,19 @@
             <i class="fa fa-times hide" aria-hidden="true" id="times"></i>
         </button>
         <ul class="main-header__navigation--menu__list" id="nav-link">
-            <li class="menu__item" id="port">
+            <li class="menu__item" id="port" onclick="reset()">
                 <a class="menu__item--link" role="button" href="#section-1"
                  aria-label="navigate to portfolio section"
                 >Portfolio</a>
             </li>
 
-            <li class="menu__item" id="about">
+            <li class="menu__item" id="about" onclick="reset()">
                 <a class="menu__item--link" role="button" href="#section-3"
                  aria-label="navigate to about section"
                 >About</a>
             </li>
 
-            <li class="menu__item" id="cont">
+            <li class="menu__item" id="cont" onclick="reset()">
                 <a class="menu__item--link" role="button" href="#section-4"
                  aria-label="navigate to contact section"
                 >Contact</a>

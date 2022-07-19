@@ -98,6 +98,10 @@ body {
   vertical-align: middle;
 }
 
+.main-header__navigation--menu.reversed {
+  margin-top: 1px;
+}
+
 .msg-icon {
   display: block;
 }
@@ -283,6 +287,11 @@ body {
 
 .work-section-container--highlighted-project .project_list--li__cta {
   width: 45%;
+}
+
+.main-header__navigation--menu__list.show .menu__item a {
+  font-size: 24px;
+  font-weight: 700;
 }
 
 /* About Section */
@@ -479,7 +488,7 @@ body {
     align-items: flex-start;
     justify-content: space-between;
     width: 100%;
-    height: 60rem;
+    height: 74rem;
   }
 
   .main-header__navigation--menu__list.show {
@@ -501,7 +510,7 @@ body {
   }
 
   .main-header__navigation--menu__list.show li:first-child {
-    margin-top: 4rem;
+    margin-top: 3rem;
   }
 
   .main-header__navigation--menu.reversed button .fa-bars {
