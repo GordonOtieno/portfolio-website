@@ -61,7 +61,7 @@ body {
   flex-wrap: wrap;
   justify-content: space-between;
   list-style: none;
-  align-items: c;
+  align-items: center;
 }
 
 .humbuger-btn {
@@ -146,7 +146,6 @@ body {
 .section-intro__description {
   color: #fff;
   font-family: "Poppins", sans-serif;
-  font-family: 400;
   font-size: 1.6rem;
   line-height: 2.4rem;
 }
