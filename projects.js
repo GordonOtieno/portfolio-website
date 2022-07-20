@@ -47,7 +47,7 @@ const projects = [
 ];
 
 function getProjects(args) {
-  let html = "";
+  let html = '';
   for (let i = 0; i < args.length; i += 1) {
     html += ` <li class='project-list--li' tabindex='0'>
      <div class='project-detail'>
@@ -62,8 +62,7 @@ function getProjects(args) {
          <button role='button' type='button' class='project_list--li__cta' data-toggle='modal' data-target='#myModal'>See Project</button>
   </li>`;
 
-    document.querySelector('.work-section-container__project--list').innerHTML =
-      html;
+    document.querySelector('.work-section-container__project--list').innerHTML = html;
   }
 }
 getProjects(projects);
