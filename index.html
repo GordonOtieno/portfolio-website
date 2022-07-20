@@ -6,6 +6,11 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./style.css" />
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <script type="text/javascript" src="./script.js"></script>
@@ -17,6 +22,7 @@
       href="https://fonts.googleapis.com/css2?family=Crete+Round&family=Inter:wght@400;600;700&family=Odibee+Sans&family=Poppins&family=Roboto:wght@700&display=swap"
       rel="stylesheet"/>
 </head>
+
 <body>
   <header class="main-header" role="group" id="head">
     <span  class="main-header__logo" id="main-logo" tabindex="0">@GordonOtieno</span>
@@ -293,143 +299,19 @@
                         <li class="skills">bootstrap</li>
                         <li class="skills">ruby</li>
                     </ul>
-                    <a 
-                    href="#"
-                    role="button"
-                    class="project_list--li__cta"
-                    >
-                    See Project
-                </a>
+                <button role="button" type="button" onclick="displaymodal()" class="project_list--li__cta" data-toggle="modal" data-target="#myModal">See Project</button>
                 </div>
             </div>
-        <ul class="work-section-container__project--list
+        <ul class="work-section-container__project--list 
             ">
-            <li class="project-list--li" tabindex="0">
-                <div class="project-detail">
-                    <h3 class="project-title">Data Dashboard Healthcare</h3>
-                    <p class="project-desc">A daily selection of privately personalized reads; 
-                        no accounts or sign-ups required. has been the industry's standard
-                    </p>
-                    <ul class="tech-list">
-                        <li class="skills">html</li>
-                        <li class="skills">bootstrap</li>
-                        <li class="skills">ruby</li>
-                    </ul>
-                </div>
-                <a 
-                        href="#"
-                        role="button"
-                        class="project_list--li__cta"
-                        >
-                        See Project
-                    </a>
-            </li>
-
-            <li class="project-list--li" tabindex="0">
-                <div class="project-detail">
-                    <h3 class="project-title">Profesional Art Printing Data</h3>
-                    <p class="project-desc">A daily selection of privately personalized reads; 
-                        no accounts or sign-ups required. has been the industry's standard
-                    </p>
-                    <ul class="tech-list">
-                        <li class="skills">html</li>
-                        <li class="skills">bootstrap</li>
-                        <li class="skills">ruby</li>
-                    </ul>
-                </div>
-                <a 
-                        href="#"
-                        role="button"
-                        class="project_list--li__cta"
-                        >
-                        See Project
-                    </a>
-            </li>
-
-            <li class="project-list--li" tabindex="0">
-                <div class="project-detail">
-                    <h3 class="project-title">Profesional Art Printing Data</h3>
-                    <p class="project-desc">A daily selection of privately personalized reads; 
-                        no accounts or sign-ups required. has been the industry's standard
-                    </p>
-                    <ul class="tech-list">
-                        <li class="skills">html</li>
-                        <li class="skills">bootstrap</li>
-                        <li class="skills">ruby</li>
-                    </ul>
-                </div>
-                <a 
-                        href="#"
-                        role="button"
-                        class="project_list--li__cta"
-                        >
-                        See Project
-                    </a>
-            </li>
-
-            <li class="project-list--li" tabindex="0">
-                <div class="project-detail">
-                    <h3 class="project-title">Profesional Art Printing Data</h3>
-                    <p class="project-desc">A daily selection of privately personalized reads; 
-                        no accounts or sign-ups required. has been the industry's standard
-                    </p>
-                    <ul class="tech-list">
-                        <li class="skills">html</li>
-                        <li class="skills">bootstrap</li>
-                        <li class="skills">ruby</li>
-                    </ul>
-                </div>
-                <a 
-                        href="#"
-                        role="button"
-                        class="project_list--li__cta"
-                        >
-                        See Project
-                    </a>
-            </li>
-
-            <li class="project-list--li" tabindex="0">
-                <div class="project-detail">
-                    <h3 class="project-title">Profesional Art Printing Data</h3>
-                    <p class="project-desc">A daily selection of privately personalized reads; 
-                        no accounts or sign-ups required. has been the industry's standard
-                    </p>
-                    <ul class="tech-list">
-                        <li class="skills">html</li>
-                        <li class="skills">bootstrap</li>
-                        <li class="skills">ruby</li>
-                    </ul>
-                </div>
-                <a 
-                        href="#"
-                        role="button"
-                        class="project_list--li__cta"
-                        >
-                        See Project
-                    </a>
-            </li>
-
-            <li class="project-list--li" tabindex="0">
-                <div class="project-detail">
-                    <h3 class="project-title">Profesional Art Printing Data</h3>
-                    <p class="project-desc">A daily selection of privately personalized reads; 
-                        no accounts or sign-ups required. has been the industry's standard
-                    </p>
-                    <ul class="tech-list">
-                        <li class="skills">html</li>
-                        <li class="skills">bootstrap</li>
-                        <li class="skills">ruby</li>
-                    </ul>
-                </div>
-                  <a href="#"
-                        role="button"
-                        class="project_list--li__cta"
-                        >
-                        See Project
-                    </a>
-            </li>
             </ul>
         </section>
+
+        <div class="container">
+          <!-- Modal -->
+
+          
+        </div>
 
         <!-- about section -->
         <section id="section-3" class="about-section-container" role="group" tabindex="1">
@@ -709,5 +591,8 @@
         </ul>
 
     </footer>
-</body>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <script type="text/javascript" src="./projects.js"></script>
+  </body>
+
 </html>

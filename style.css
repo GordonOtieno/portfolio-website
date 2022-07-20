@@ -8,6 +8,75 @@
   box-sizing: border-box;
 }
 
+.modal-buttons {
+  padding: 2rem;
+  width: 100%;
+  display: flex;
+  flex: 1;
+  justify-content: space-between;
+}
+
+.modal-buttons button {
+  width: 48%;
+}
+
+.fa-external-link {
+  margin-left: 5px;
+  width: 3rem;
+}
+
+.fa-github {
+  margin-left: 5px;
+  width: 3rem;
+  padding: 2px;
+}
+
+.btn.btn-default {
+  background-color: #ff6b00;
+  height: 5rem;
+  color: white;
+}
+
+.modal-info {
+  padding: 0 2rem;
+}
+
+.modal-header-title {
+  font-family: "Inter", sans-serif;
+  font-size: 2rem;
+  text-align: center;
+  font-weight: 700;
+  line-height: 4rem;
+}
+
+.image-prag-container {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+}
+
+.tech-list .skills {
+  font-size: 1.5rem;
+  line-height: 2rem;
+  padding: 1.4rem;
+  background-color: rgba(255, 255, 255, 0.244);
+  font-family: "Inter", sans-serif;
+  font-weight: 400;
+}
+
+.modal-body .tech-list .skills {
+  outline: #8993a4 1px solid;
+}
+
+.tech-list.model li {
+  padding: 1rem 2rem;
+}
+
+.project-image img {
+  padding-left: 1rem;
+  object-fit: contain;
+}
+
 .highlighted-project__wrapper {
   display: flex;
   flex-direction: column;
@@ -252,15 +321,6 @@ body {
   margin-bottom: 2rem;
 }
 
-.tech-list .skills {
-  font-size: 1.5rem;
-  line-height: 2rem;
-  padding: 1.4rem;
-  background-color: rgba(255, 255, 255, 0.244);
-  font-family: "Inter", sans-serif;
-  font-weight: 400;
-}
-
 .work-section-container--highlighted-project .tech-list .skills {
   font-size: 1.5rem;
   line-height: 2rem;
@@ -480,7 +540,47 @@ body {
   fill: #505f79;
 }
 
+.modol-closing {
+  padding: 2rem;
+}
+
 @media (max-width: 768px) {
+  .image-prag-container {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .modal-top-content {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .modol-pb-container {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .project-image img {
+    width: 100%;
+    padding: 2rem;
+  }
+
+  .modal-info {
+    padding: 2rem;
+  }
+
+  .modal-buttons {
+    padding: 2rem;
+    width: 100%;
+    display: flex;
+    flex: 1;
+    justify-content: space-between;
+  }
+
+  .modal-buttons button {
+    width: 48%;
+  }
+
   .main-header__navigation--menu.reversed {
     display: flex;
     flex-direction: row-reverse;
