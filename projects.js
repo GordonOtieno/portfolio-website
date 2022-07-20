@@ -1,55 +1,55 @@
 const projects = [
-    {
-      name: 'Multi-Post Stories',
-      description:
-        'A daily selection of privately personalized readsno accounts or sign ups required. has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a standard dummy text.',
-      image: './assets/images/Img-Placeholder.svg',
-      technologies: ['css', 'html', 'bootstrap', 'ruby'],
-      livedemo: 'https://gordonotieno.github.io/portfolio-website/',
-      sourceCode: 'https://github.com/GordonOtieno/portfolio-website/',
-    },
-    {
-      name: 'Multi-Post Stories',
-      description:
-        'A daily selection of privately personalized readsno accounts or sign ups required. has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a standard dummy text.',
-      image: './assets/images/Img-Placeholder.svg',
-      technologies: ['css', 'html', 'bootstrap', 'ruby'],
-      livedemo: 'https://gordonotieno.github.io/portfolio-website/',
-      sourceCode: 'https://github.com/GordonOtieno/portfolio-website/',
-    },
-    {
-      name: 'Multi-Post Stories',
-      description:
-        'A daily selection of privately personalized readsno accounts or sign ups required. has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a standard dummy text.',
-      image: './assets/images/Img-Placeholder.svg',
-      technologies: ['css', 'html', 'bootstrap', 'ruby'],
-      livedemo: 'https://gordonotieno.github.io/portfolio-website/',
-      sourceCode: 'https://github.com/GordonOtieno/portfolio-website/',
-    },
-    {
-      name: 'Multi-Post Stories',
-      description:
-        'A daily selection of privately personalized readsno accounts or sign ups required. has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a standard dummy text.',
-      image: './assets/images/Img-Placeholder.svg',
-      technologies: ['css', 'html', 'bootstrap', 'ruby'],
-      livedemo: 'https://gordonotieno.github.io/portfolio-website/',
-      sourceCode: 'https://github.com/GordonOtieno/portfolio-website/',
-    },
-    {
-      name: 'Multi-Post Stories',
-      description:
-        'A daily selection of privately personalized readsno accounts or sign ups required. has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a standard dummy text.',
-      image: './assets/images/Img-Placeholder.svg',
-      technologies: ['css', 'html', 'bootstrap', 'ruby'],
-      livedemo: 'https://gordonotieno.github.io/portfolio-website/',
-      sourceCode: 'https://github.com/GordonOtieno/portfolio-website/',
-    },
-  ];
-  
-  function getProjects(args) {
-    let html = '';
-    for (let i = 0; i < args.length; i += 1) {
-      html += ` <li class="project-list--li" tabindex="0">
+  {
+    name: "Multi-Post Stories",
+    description:
+      "A daily selection of privately personalized readsno accounts or sign ups required. has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a standard dummy text.",
+    image: "./assets/images/Img-Placeholder.svg",
+    technologies: ["css", "html", "bootstrap", "ruby"],
+    livedemo: "https://gordonotieno.github.io/portfolio-website/",
+    sourceCode: "https://github.com/GordonOtieno/portfolio-website/",
+  },
+  {
+    name: "Multi-Post Stories",
+    description:
+      "A daily selection of privately personalized readsno accounts or sign ups required. has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a standard dummy text.",
+    image: "./assets/images/Img-Placeholder.svg",
+    technologies: ["css", "html", "bootstrap", "ruby"],
+    livedemo: "https://gordonotieno.github.io/portfolio-website/",
+    sourceCode: "https://github.com/GordonOtieno/portfolio-website/",
+  },
+  {
+    name: "Multi-Post Stories",
+    description:
+      "A daily selection of privately personalized readsno accounts or sign ups required. has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a standard dummy text.",
+    image: "./assets/images/Img-Placeholder.svg",
+    technologies: ["css", "html", "bootstrap", "ruby"],
+    livedemo: "https://gordonotieno.github.io/portfolio-website/",
+    sourceCode: "https://github.com/GordonOtieno/portfolio-website/",
+  },
+  {
+    name: "Multi-Post Stories",
+    description:
+      "A daily selection of privately personalized readsno accounts or sign ups required. has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a standard dummy text.",
+    image: "./assets/images/Img-Placeholder.svg",
+    technologies: ["css", "html", "bootstrap", "ruby"],
+    livedemo: "https://gordonotieno.github.io/portfolio-website/",
+    sourceCode: "https://github.com/GordonOtieno/portfolio-website/",
+  },
+  {
+    name: "Multi-Post Stories",
+    description:
+      "A daily selection of privately personalized readsno accounts or sign ups required. has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a standard dummy text.",
+    image: "./assets/images/Img-Placeholder.svg",
+    technologies: ["css", "html", "bootstrap", "ruby"],
+    livedemo: "https://gordonotieno.github.io/portfolio-website/",
+    sourceCode: "https://github.com/GordonOtieno/portfolio-website/",
+  },
+];
+
+function getProjects(args) {
+  let html = "";
+  for (let i = 0; i < args.length; i += 1) {
+    html += ` <li class="project-list--li" tabindex="0">
      <div class="project-detail">
          <h3 class="project-title">${args[i].name}</h3>
          <p class="project-desc">${args[i].description} </p>
@@ -61,15 +61,16 @@ const projects = [
      </div>
          <button role="button" type="button" class="project_list--li__cta" data-toggle="modal" data-target="#myModal">See Project</button>
   </li>`;
-  
-      document.querySelector('.work-section-container__project--list').innerHTML = html;
-    }
+
+    document.querySelector(".work-section-container__project--list").innerHTML =
+      html;
   }
-  getProjects(projects);
-  
-  function displaymodal() {
-    let html = '';
-    html += ` <div class="modal fade" id="myModal" role="dialog">
+}
+getProjects(projects);
+
+function displaymodal() {
+  let html = "";
+  html += ` <div class="modal fade" id="myModal" role="dialog">
       <div class="modal-dialog">
       
         <!-- Modal content-->
@@ -109,6 +110,6 @@ const projects = [
         
       </div>
     </div>`;
-    document.querySelector('.container').innerHTML = html;
-  }
-  displaymodal();
+  document.querySelector(".container").innerHTML = html;
+}
+displaymodal();
