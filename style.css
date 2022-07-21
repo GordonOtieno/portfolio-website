@@ -8,6 +8,46 @@
   box-sizing: border-box;
 }
 
+.modal-buttons button {
+  width: 48%;
+}
+
+.tech-list.model button {
+  width: 100%;
+  padding: 1rem 3rem;
+  cursor: pointer;
+  background-color: white;
+  border: 1px solid#a3a09f;
+}
+
+.tech-list.model button:hover {
+  color: white;
+  background-color: #ff6b00;
+}
+
+.error {
+  border-bottom: 1px solid #dc3545;
+  padding: 1rem;
+  outline: none;
+  background-color: #f5bac0;
+}
+
+.error:focus {
+  outline: none;
+  padding: 1rem;
+}
+
+/* input success */
+.success {
+  border-bottom: 1px solid #198754;
+  padding: 1rem;
+  outline: none;
+}
+
+small {
+  color: #dc3545;
+}
+
 .modal-buttons {
   padding: 2rem;
   width: 100%;
@@ -21,10 +61,6 @@
   color: white;
 }
 
-.modal-buttons button {
-  width: 48%;
-}
-
 .fa-external-link {
   margin-left: 5px;
   width: 3rem;
@@ -34,12 +70,13 @@
   margin-left: 5px;
   width: 3rem;
   padding: 2px;
+  padding-right: 2rem;
 }
 
 .btn.btn-default {
   background-color: #ff6b00;
   height: 5rem;
-  color: white;
+  color: rgb(247, 238, 238);
 }
 
 .modal-info {
@@ -49,7 +86,7 @@
 .modal-header-title {
   font-family: "Inter", sans-serif;
   font-size: 2rem;
-  text-align: center;
+  padding-left: 2rem;
   font-weight: 700;
   line-height: 4rem;
 }
@@ -71,10 +108,6 @@
 
 .modal-body .tech-list .skills {
   outline: #8993a4 1px solid;
-}
-
-.tech-list.model li {
-  padding: 1rem 2rem;
 }
 
 .project-image img {
