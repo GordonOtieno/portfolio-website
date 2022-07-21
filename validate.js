@@ -25,9 +25,7 @@ function validateEmail(input, requiredMsg, invalidMsg) {
     return false;
   }
 
-  const emailRegex = '';
-  // /^([a-z0-9_\-\.]+)@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.)|
-  // (([a-z0-9\-]+\.)+))([a-z]{2,4}|[0-9]{1,3})(\]?)$/;
+  const emailRegex = /^([a-z0-9_]+)@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.)|(([a-z0-9]+\.)+))([a-z]{2,4}|[0-9]{1,3})(\]?)$/;
 
   const email = input.value.trim();
   if (!emailRegex.test(email)) {
