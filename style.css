@@ -20,6 +20,11 @@
   border: 1px solid#a3a09f;
 }
 
+.tech-list.model li button {
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+
 .tech-list.model button:hover {
   color: white;
   background-color: #ff6b00;
@@ -681,6 +686,57 @@ body {
   .main-header {
     width: 100%;
     font-size: 2.3rem;
+  }
+
+  .modal-info {
+    width: 80%;
+    line-height: 25px;
+    padding: 3rem;
+    height: 100%;
+    margin-top: 0;
+    margin-bottom: 12rem;
+  }
+
+  .modal-dialog {
+    width: 150rem;
+    height: 500rem;
+  }
+
+  .modal-top-content {
+    margin-bottom: 20rem;
+  }
+
+  .image-prag-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+  }
+
+  .modol-pb-container {
+    width: 600px;
+    height: 100%;
+    margin-top: 0;
+    padding-top: 0;
+  }
+
+  .modal-buttons {
+    width: 50%;
+    padding: 3rem;
+  }
+
+  .modal-header-title {
+    padding-left: 16rem;
+    font-size: 4rem;
+  }
+
+  .project-image img {
+    width: 600px;
+  }
+
+  .modal-body {
+    padding-left: 16rem;
+    padding-bottom: 0;
   }
 
   .main-header__logo {
