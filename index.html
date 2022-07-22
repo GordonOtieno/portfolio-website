@@ -381,29 +381,35 @@
           <input
             class="inputs"
             type="text"
+            id="fullname"
             name="name"
             maxlength="30"
             aria-label="Please enter your"
             placeholder="Full Name"
             required
+            onkeyup="captureData()"
           />
           <input
             class="inputs"
             type="email"
             name="email"
+            id="emailaddress"
             aria-label="Please enter your"
             placeholder="Email Address"
             required
+            onkeyup="captureData()"
           />
           <textarea
             class="inputs message"
             name="message"
+            id="messagearea"
             maxlength="500"
             rows="6"
             cols="70"
             aria-label="Please"
             placeholder="Write your message here"
             required
+            onkeyup="captureData()"
           ></textarea>
           <small></small>
           <small class="success"></small>
@@ -597,6 +603,7 @@
     <script src="./validate.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
     <script src="./projects.js"></script>
+    <script src="./localStorage.js"></script>
   </body>
 
 </html>
